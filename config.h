@@ -22,7 +22,7 @@ static const char *colors[][3]      = {
 
 /* tagging */
 /* static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" }; */
-static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
+static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -30,14 +30,15 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask  switchtotag   isfloating   monitor */
-	{ "Gimp",           NULL, NULL, 0,     1, 1, -1 },
-	{ "firefox",        NULL, NULL, 1 << 1,1, 0, -1 },
-	{ "zoom",           NULL, NULL, 1 << 7,1, 0, -1 },
-	{ "Zathura",        NULL, NULL, 1 << 3,1, 0, -1 },
-	{ "Inkspace",       NULL, NULL, 1 << 3,1, 1, -1 },
-	{ "mpv",            NULL, NULL, 1 << 4,1, 0, -1 },
-	{ "Telegram",       NULL, NULL, 1 << 8,1, 0, -1 },
-	{ "Gnome-terminal", NULL, NULL, 1 << 2,1, 0, -1 },
+	{ "Gimp",                         NULL, NULL, 0, 1, 1,   -1 },
+	{ "firefox",                      NULL, NULL, 1  << 1,1, 0, -1 },
+	{ "zoom",                         NULL, NULL, 1  << 7,1, 0, -1 },
+	{ "Zathura",                      NULL, NULL, 1  << 3,1, 0, -1 },
+	{ "Inkspace",                     NULL, NULL, 1  << 3,1, 1, -1 },
+	{ "mpv",                          NULL, NULL, 1  << 4,1, 0, -1 },
+	{ "Telegram",                     NULL, NULL, 1  << 8,1, 0, -1 },
+	{ "Gnome-terminal",               NULL, NULL, 1  << 2,1, 0, -1 },
+	{ "Oracle VM VirtualBox Manager", NULL, NULL, 1  << 5,1, 0, -1 },
 };
 
 /* layout(s) */
