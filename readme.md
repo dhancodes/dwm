@@ -38,6 +38,7 @@ I have applied the following patches found in [dwm](https://dwm.suckless.org/)
 - dwm-combo-6.1.diff
 - dwm-switchtotag-6.2.diff
 - dwm-uselessgap-20211119-58414bee958f2.diff
+- dwm-warp-6.4.diff
 
 Recommendations
 ------------
